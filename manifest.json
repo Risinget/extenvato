@@ -1,0 +1,15 @@
+// manifest.json
+{
+  "manifest_version": 2,
+  "name": "EnvatoDown",
+  "description": "Envato Elements Downloader PRO with this tool you can download any file on the envato elements site.",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "foot.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "https://elements.envato.com/*",
+    "activeTab"
+  ]
+}
